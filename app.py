@@ -55,8 +55,14 @@ if __name__ == '__main__':
 
 from flask import Flask, render_template
 
-app = Flask(__name__, static_folder='static')
+from flask import Flask, render_template
+
+app = Flask(__name__)
 
 @app.route('/')
 def home():
     return render_template('index.html')
+
+# Only if you have static files issue
+# No need to touch anything else for now
+
