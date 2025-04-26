@@ -1,1 +1,8 @@
+<body>
 
+    <!-- Your content goes here -->
+
+    <!-- Link to your custom JavaScript -->
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>/* Your CSS was copied here (from your original HTML) */
